@@ -25,7 +25,5 @@ WebUI.click(findTestObject('Object Repository/Page_Katalon Shop  Katalon Ecommer
 
 WebUI.click(findTestObject('Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_Add to cart_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_Checkout'))
-
 WebUI.closeBrowser()
 
