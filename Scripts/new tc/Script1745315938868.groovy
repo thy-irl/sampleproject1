@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://cms.demo.katalon.com/')
+
+WebUI.click(findTestObject('Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_Add to cart'))
+
+WebUI.click(findTestObject('Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_Add to cart_1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_Checkout'))
+
+WebUI.closeBrowser()
+
